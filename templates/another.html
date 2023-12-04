@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inference Result</title>
+
+</head>
+
+<body>
+    <h1>Result</h1>
+    <img src="{{ img_url }}" alt="Inference Result">
+    {% if results %}
+    <h2>Calories:</h2>
+    <ul id="caloriesList">
+        {% for key in results%}
+        <li>{{key[0]}}: {{key[1]}}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No objects detected.</p>
+    {% endif %}
+
+
+</body>
+
+</html>
