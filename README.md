@@ -4,7 +4,16 @@ This project is developed to detect the food items from image using YOLOv5 and f
 **Domain:**  Deep Learning, Reinforcement Learning, Web Application<br>
 **Project Members:**  Vishaal V, Yogesh V, Shylendra S<br><br>
 
-**Note:** Download the service-account.json and credentials.json while setting up Firebase Account, and rename accordingly
+**Note:** 
+1. Download the service-account.json and credentials.json while setting up Firebase Application, and rename accordingly
+2. Store content in Firestore in form of
+   'Collection_name'
+   -> 'food name'
+   ---->'food1'-->'calorie'
+   ---->'food2'-->'calorie'
+   ....and so on
+3. Learn how to fetch and send data :-0
+   
 
 Contact vishaluxo@protonmail.ch for further assistance
 
